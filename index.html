@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+	<title>Todo List</title>
+</head>
+<body>
+	<header>
+		<h1>TODO LIST</h1>
+	</header>
+	<section>
+		<h2>Add Task</h2>
+		<form id="add-task-form">
+			<label for="task-name">Task Name:</label>
+			<input type="text" id="task-name" name="task-name" required>
+			<label for="due-date">Due Date:</label>
+			<input type="date" id="due-date" name="due-date" required>
+			<button type="submit">Add Task</button>
+		</form>
+	</section>
+	<section>
+		<h2>Tasks</h2>
+		<ul id="task-list">
+			<!-- Todo items will be added dynamically here -->
+		</ul>
+	</section>
+
+	<script src="script.js"></script>
+</body>
+</html>
